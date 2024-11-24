@@ -11,3 +11,4 @@ if(true){
 
 
 console.log(`${a} ${b} ${c}`);
+console.log(a)
