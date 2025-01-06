@@ -1,0 +1,21 @@
+body{
+  background-color: #414141;
+}
+
+#heading{
+  color: aqua;
+}
+
+#text{
+  color: aquamarine;
+}
+
+#button{
+    background-color: #8ef5f2;
+    height: 30px;
+    width: 100px;
+}
+
+#button:hover{
+ background-color: rgb(71, 233, 242);
+}
