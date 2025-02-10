@@ -1,0 +1,12 @@
+<img id="dynamic-img" src="" alt="Image will load here" width="300">
+<button onclick="loadImage()">Load Image</button>
+
+<script>
+  function loadImage() {
+    fetch("https://picsum.photos/300")
+      .then(response => {
+        document.getElementById("dynamic-img").src = response.url;
+      })
+      .catch(error => console.error("Error loading image:", error));
+  }
+</script>
